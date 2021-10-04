@@ -1,0 +1,83 @@
+.wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper h2 {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0 40px 0;
+    font-size: 40px;
+    color: rgb(85, 26, 139);
+    font-weight: 700;
+}
+
+.form {
+    border: 5px solid rgb(85, 26, 139);
+    border-radius: 50px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.controls label, 
+.controls input {
+    display: block;
+}
+
+.controls label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: rgb(85, 26, 139)
+}
+
+.controls input {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 3px solid rgb(85, 26, 139);
+}
+
+.controls.invalid input {
+    border-color: red;
+    background: #fbdada;
+} 
+  
+
+.controls button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:rgb(85, 26, 139) ;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+}
+
+.addBtn:disabled,
+.addBtn:focus:disabled,
+.addBtn:hover:disabled,
+.addBtn:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

@@ -1,0 +1,24 @@
+.navigation {
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #873abb;
+}
+
+.list {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.list li {
+  list-style-type: none;
+  display: block;
+}
+
+.list  a {
+  text-decoration: none;
+  font-weight: 700;
+}
